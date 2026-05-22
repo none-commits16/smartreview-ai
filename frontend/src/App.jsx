@@ -25,7 +25,7 @@ function App() {
     try {
 
       const response = await axios.post(
-        "https://smartreview-api.onrender.com/predict",
+        "https://smartreview-ai.onrender.com/predict",
         {
           review: review
         }
